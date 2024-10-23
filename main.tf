@@ -3,7 +3,7 @@ region="ap-south-1"
 }
 
 resource "aws_instance" "one"{
-count=4 
+count=4
 ami="ami-0e0e417dfa2028266"
 instance_type="t2.micro"
 key_name = "dev4pm"
